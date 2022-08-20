@@ -7,7 +7,7 @@ import time
 # hyperparameters
 H = 200 # number of hidden layer neurons
 batch_size = 10  # every how many episodes to do a param update?
-learning_rate = 1e-4
+learning_rate = 1e-2
 gamma = 0.99  # discount factor for reward
 decay_rate = 0.99  # decay factor for RMSProp leaky sum of grad^2
 resume = False  # resume from previous checkpoint?
@@ -137,6 +137,7 @@ while True:
             TimeDiff = end - start
             Min, Sec = divmod(TimeDiff, 60)
             Hour, Min = divmod(Min, 60)
+            print("this task is done by mahendran somasundaram C0831457")
 
             print("Hours:", Hour)
             print("Min", Min)
